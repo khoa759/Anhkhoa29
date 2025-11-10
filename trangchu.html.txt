@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Khoa Photoshop - Trang Chủ</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* CSS đơn giản cho trang */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .main-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anh Khoa Photoshop</h1>
+        <nav>
+            <a href="trangchu.html">Trang Chủ</a>
+            <a href="gioithieu.html">Giới Thiệu</a>
+            <a href="dichvu.html">Dịch Vụ</a>
+            <a href="lienhe.html">Liên Hệ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="main-content">
+            <h2>Chào mừng đến với Anh Khoa Photoshop</h2>
+            <p>Chúng tôi chuyên cung cấp các dịch vụ **chỉnh sửa ảnh chuyên nghiệp** bằng phần mềm **Adobe Photoshop**.</p>
+            <p>Với đội ngũ kinh nghiệm và sự tận tâm, chúng tôi cam kết mang lại những bức ảnh hoàn hảo nhất cho bạn.</p>
+            
+            <hr>
+            
+            <h3>🌟 Dịch vụ nổi bật</h3>
+            <ul>
+                <li>Phục chế ảnh cũ, ảnh hư hỏng</li>
+                <li>Chỉnh sửa ảnh chân dung, ảnh cưới</li>
+                <li>Tách nền, ghép ảnh, thay đổi bối cảnh</li>
+                <li>Thiết kế banner, poster, ấn phẩm quảng cáo</li>
+            </ul>
+            
+            <hr>
+
+            <h3>📞 Liên hệ ngay!</h3>
+            <p>Hãy liên hệ với chúng tôi để được tư vấn và nhận báo giá tốt nhất.</p>
+            <p>**Email:** anhkhoapts@example.com</p>
+            <p>**Điện thoại:** 090xxxxxxx</p>
+            
+            <a href="dichvu.html" style="display: inline-block; background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 15px;">Xem Chi Tiết Dịch Vụ</a>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Anh Khoa Photoshop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin & Giới Thiệu - Anh Khoa Photoshop</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0 80px 0; /* Padding dưới để footer không bị chồng lên */
+        }
+        .main-content {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .vision-mission li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anh Khoa Photoshop</h1>
+        <nav>
+            <a href="trangchu.html">Trang Chủ</a>
+            <a href="thongtin.html">Giới Thiệu</a>
+            <a href="dichvu.html">Dịch Vụ</a>
+            <a href="lienhe.html">Liên Hệ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="main-content">
+            <h2 class="section-title">✨ Thông Tin & Giới Thiệu về Anh Khoa Photoshop</h2>
+            
+            <p><strong>Anh Khoa Photoshop</strong> được thành lập với niềm đam mê bất tận đối với nghệ thuật chỉnh sửa ảnh. Chúng tôi không chỉ là một dịch vụ, mà còn là một đối tác tin cậy, giúp bạn biến những khoảnh khắc đẹp thành những tác phẩm nghệ thuật vượt thời gian.</p>
+            
+            <hr>
+
+            <h3>👨‍💻 Đội Ngũ và Kinh Nghiệm</h3>
+            <p>Đội ngũ của chúng tôi bao gồm các chuyên gia **Photoshop** giàu kinh nghiệm, đã hoàn thành hàng ngàn dự án chỉnh sửa ảnh từ cơ bản đến phức tạp. Chúng tôi luôn cập nhật những kỹ thuật và công cụ mới nhất để đảm bảo chất lượng hình ảnh là tuyệt đối.</p>
+            
+            <blockquote>
+                "Mỗi bức ảnh là một câu chuyện. Chúng tôi giúp câu chuyện đó trở nên hoàn hảo hơn." - Anh Khoa
+            </blockquote>
+            
+            <hr>
+
+            <h3>🎯 Tầm Nhìn và Sứ Mệnh</h3>
+            <ul class="vision-mission">
+                <li>
+                    <strong>Tầm Nhìn:</strong> Trở thành đơn vị cung cấp dịch vụ chỉnh sửa ảnh Photoshop hàng đầu tại Việt Nam, được khách hàng tin tưởng và lựa chọn.
+                </li>
+                <li>
+                    <strong>Sứ Mệnh:</strong> Mang đến giải pháp hình ảnh chất lượng cao, tối ưu hóa vẻ đẹp và giá trị thẩm mỹ cho mọi bức ảnh của khách hàng.
+                </li>
+                <li>
+                    <strong>Giá trị cốt lõi:</strong> Chuyên nghiệp, Tận tâm, Sáng tạo và Bảo mật thông tin khách hàng tuyệt đối.
+                </li>
+            </ul>
+            
+            <hr>
+            
+            <h3>📍 Thông tin liên hệ cơ bản</h3>
+            <p>Nếu bạn có bất kỳ câu hỏi nào về quy trình làm việc hoặc muốn hợp tác, đừng ngần ngại liên hệ với chúng tôi.</p>
+            <p>
+                **Địa chỉ:** [Văn phòng ảo hoặc Địa chỉ cụ thể]<br>
+                **Email hỗ trợ:** anhkhoapts@example.com
+            </p>
+
+            <a href="lienhe.html" style="display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 15px;">Liên Hệ Ngay</a>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Anh Khoa Photoshop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
